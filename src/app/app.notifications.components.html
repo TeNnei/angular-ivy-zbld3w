@@ -1,19 +1,24 @@
-<h2>{{title}}</h2>
 
 <div class="notifications-block">
-  <h1>Submit notifications inf</h1>
+  <h1>{{title}}</h1>
   <p>
-    <label>System Name</label>
+    <label for="sname">System Name: </label>
   <input 
-    name="What you need to notify?" 
+    name="sname" 
     type="text" 
   />
 </p>
+  <label for="message">Message: </label>
   <input 
+    #input
+    name="message"
     type="text"
   />
 
-  <p>{{getInfo()}}</p>
+  <p>
+    <button (click)="changeTitle(input.value)">Change title</button>
+  </p>
+  
  
 </div>
 

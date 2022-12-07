@@ -7,7 +7,10 @@ import { Notificaitons } from './app.notifications.component'
 
 
 @NgModule({
-  imports:[ BrowserModule, FormsModule ],
+  imports:[ 
+    BrowserModule, 
+    FormsModule 
+  ],
   declarations: [
     AppComponent,
     Notificaitons

@@ -11,4 +11,8 @@ export class Notificaitons{
   getInfo(){
     return 'Successed create notifications message'
   }
+
+  changeTitle(value: string) {
+    this.title = value
+  }
 }
