@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class Notificaitons{
   title = 'Notifications'
+
+  getInfo(){
+    return 'Successed create notifications message'
+  }
 }
