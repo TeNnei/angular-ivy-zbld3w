@@ -4,14 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component'
 
-import { Notificaitons } from './notifications.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:[ BrowserModule, FormsModule ],
   declarations: [
-    AppComponent,
-    Notificaitons
+    AppComponent
     ],
-  bootstrap:    [ Notificaitons ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
